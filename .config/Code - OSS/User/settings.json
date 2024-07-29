@@ -1,0 +1,91 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "gitlens.trailingLineForegroundColor": "#ffffff",
+    "editorCursor.foreground": "#e0e0e0",
+    "editor.lineHighlightBackground": "#1e003671",
+    "editor.lineHighlightBorder": "#00ffdd3b"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#091833",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#05d9e8",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#091833",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#ea00d9",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "=>",
+      "color": "#091833",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#ffd300",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#091833",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "#ffd300",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#091833",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#ff3333",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.showSlider": "always",
+  "gitlens.statusBar.format": "💢 ${author}, ${agoOrDate}${' via 'pullRequest}",
+  "gitlens.currentLine.format": "💢 ${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
+  "editor.minimap.side": "left",
+  "editor.fontFamily": "'Cascadia Code NF', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.minimap.renderCharacters": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.colors": [
+    "rgba(255,255,64,.7)",
+    "rgba(127,255,127,.7)",
+    "rgba(255,127,255,.7)",
+    "rgba(79,236,236,.7)"
+  ],
+  "indentRainbow.colorOnWhiteSpaceOnly": true
+}
